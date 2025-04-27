@@ -3,14 +3,19 @@
 This is a repository for an example project in the Oxford Dyson Program 2024-2025. I attempt to reestablish results achieved in Lau & Binney (2019), where multipole components of an Isocchrone N-body snapshots were analyzed to determine their contributions to the relaxation of the system. The N-Body simulation uses Falcon code created by Dehnen, and modified by Professor James Binney for parallel processing. The ReadSnapShot code attached delivers the files "PowerRadialVariation#.csv" and "DipoleVar#.csv" at time steps 0, 25, 50, ... 250. 
 
 "PowerRadialVariation#.csv" delivers in the following format:
+
 radius | |c1|^2 | |c2|^2 
+
 0      | 0      | 0      
+
 ...
 
 Where c1 and c2 are the dipole and quadrupole coefficients as defined in Lau & Binney (2019)
 
 "DipoleVar#.csv"
+
 radius | <cos(q)>
+
 ...
 
 Where <cos(q)> Is the cosine angle between inner and outer dipoles, as specified in Lau & Binney (2019)
