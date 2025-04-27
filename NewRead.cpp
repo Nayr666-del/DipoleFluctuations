@@ -2,10 +2,8 @@
 #include "coord.h"
 #include <cmath>
 #include <omp.h>
-//#include"gnuplt.h"
 #include <gsl/gsl_eigen.h>
 #include <gsl/gsl_complex_math.h>
-//#include "Pi.h"
 #include <gsl/gsl_complex.h>
 #include "math_sphharm.h"
 #include <format>
